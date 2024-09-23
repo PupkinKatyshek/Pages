@@ -1,9 +1,122 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ru">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Bla bla bla</title>
+    <link rel="stylesheet" href="./styles/style.css" />
+    <title>Ремонт техники</title>
   </head>
-  <body></body>
+
+  <body>
+    <header class="header">
+      <div class="header__left">
+        <button class="buttons header__burger">
+          <img src="./assets/images/burger1.svg" alt="picture" />
+        </button>
+        <a class="header__logo" href="#">
+          <img src="./assets/images/Group.png" alt="logo" />
+        </a>
+      </div>
+      <div class="header__center">
+        <button class="buttons">
+          <img src="./assets/images/call.svg" alt="call" />
+        </button>
+        <button class="buttons">
+          <img src="./assets/images/chat.svg" alt="chat" />
+        </button>
+        <button class="buttons">
+          <img src="./assets/images/profile.svg" alt="profile" />
+        </button>
+      </div>
+      <div class="header__right">
+        <button class="buttons header__repair">
+          <img src="./assets/images/repair.svg" alt="repair" />
+        </button>
+        <button class="buttons header__search">
+          <img src="./assets/images/checkstatus.svg" alt="search" />
+        </button>
+      </div>
+    </header>
+    <main>
+      <div class="h1">
+        Услуги и сервисы
+        <div class="h1__visible">
+          <button class="h1__link">
+            Оставить заявку<img
+              class="buttons"
+              src="./assets/images/repair.svg"
+              alt="repair"
+            />
+          </button>
+          <button class="h1__link">
+            Статус ремонта<img
+              class="buttons"
+              src="./assets/images/checkstatus.svg"
+              alt="search"
+            />
+          </button>
+        </div>
+      </div>
+      <nav class="navi">
+        <ul class="navi__list">
+          <li class="navi__elem">
+            <a class="navi__name" href="#" autofocus
+              >Ремонтируемые устройства</a
+            >
+          </li>
+          <li class="navi__elem">
+            <a class="navi__name" href="#">Ремонтируемые бренды</a>
+          </li>
+          <li class="navi__elem">
+            <a class="navi__name" href="#">Цены на услуги</a>
+          </li>
+          <li class="navi__elem">
+            <a class="navi__name" href="#">Адреса сервисных центров</a>
+          </li>
+          <li class="navi__elem">
+            <a class="navi__name" href="#">Специальные цены</a>
+          </li>
+        </ul>
+      </nav>
+      <div class="about">
+        <div class="about__container">
+          <article class="about__text">
+            Мы являемся авторизованным сервисным центром по ремонту техники
+            Dell. Только у нас вы можете отремонтировать свой ноутбук Dell с
+            официальной гарантией
+            <br />производителя.
+            <p>
+              Мы успешно работаем с 1992 года и заслужили репутацию надежного
+              партнера , что подтверждает большое количество постоянных
+              клиентов. Мы гордимся тем, что к нам обращаются по рекомендациям
+              и, в свою очередь, советуют нас родным и близким.
+            </p>
+          </article>
+          <button class="about__btn">
+            <img
+              class="about__down"
+              src="./assets/images/expand.svg"
+              alt="down"
+            />
+            Читать далее
+          </button>
+        </div>
+        <picture class="about__logotip">
+          <source
+            media="(min-width: 1120px)"
+            srcset="./assets/images/logotip-532.jpg"
+          />
+          <source
+            media="(min-width: 768px)"
+            srcset="./assets/images/logotip-360.png"
+          />
+          <img
+            src="./assets/images/logotip-320.png"
+            alt="Фотография ресепшен"
+          />
+        </picture>
+      </div>
+    </main>
+  </body>
 </html>
+<!-- ge-ge-ge  -->
